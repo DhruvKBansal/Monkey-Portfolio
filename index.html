@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monkey Portfolio Maker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Monkey-Based Portfolio Maker – Finance Edition</h1>
+        <p>Let the monkey randomly pick your stocks from <font color= "red">Nifty</font> 50!</p>
+        
+        <!-- Notification Area -->
+        <div id="notification" class="hidden">Your portfolio is ready!</div>
+        
+        <!-- Loader (Hidden Initially) -->
+        <div id="loader" class="hidden"></div>
+        
+        <button id="generate-btn">Generate Portfolio</button>
+
+        <div id="portfolio" class="hidden">
+            <h2>Your Monkey Portfolio</h2>
+            <ul id="stock-list"></ul>
+        </div>
+        <button id="try-again-btn" style="display:none;">Try Again</button>
+    </div>
+
+    <footer>
+        <p>This is made by <span>Dhruv Kumar Bansal</span> and <span>Divyanshi Vishwakarma</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
